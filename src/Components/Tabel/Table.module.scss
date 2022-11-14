@@ -1,0 +1,15 @@
+.container{
+    margin-top: 30px;
+
+    table{
+        border-collapse: collapse;
+        width: 100%;
+        font-family: 'Inter';
+        
+        td,th{
+            text-align: left;
+            padding: 8px ;
+            border: 1px solid #dddddd;
+        }
+    }
+}

@@ -1,0 +1,27 @@
+.conatiner{
+    width:fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+
+    label{
+        font-size: 16px;
+        font-weight: 500;
+        color: black;
+        width: fit-content;
+
+    }
+    input{
+        width: 281px;
+        padding: 0;
+        font-size: 16px;
+        color: #232323;
+        outline: none;
+        font-family: 'Inter';
+        padding-left: 20px;
+        height: 45px;
+        border: 1px solid #E5E5E5 ;
+        background-color: #F4F4F4;
+        border-radius: 10px;
+    }
+}

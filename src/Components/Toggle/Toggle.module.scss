@@ -1,0 +1,42 @@
+.container {
+  width: 300px;
+  background-color: pink;
+  height: 300px;
+  transition: .3s;
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.content {
+    cursor: pointer;
+  transition: 0.3s;
+  width: 65px;
+  height: 30px;
+  background-color: #fff;
+  border-radius: 25px;
+  position: relative;
+
+  span {
+    transition: 0.3s;
+    border: 2px solid #fff;
+    width: 26px;
+    height: 26px;
+    background-color: black;
+    position: absolute;
+    border-radius: 50%;
+    left: 0;
+    top: 0;
+  }
+}
+.active {
+  background-color: rgb(214, 214, 214);
+
+  span {
+    background-color: rgb(43, 43, 43);
+    margin-left: 40px;
+  }
+}
+.actives{
+    background-color: rgb(43, 43, 43);
+}
